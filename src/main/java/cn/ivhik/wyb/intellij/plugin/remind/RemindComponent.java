@@ -1,4 +1,4 @@
-package cn.fantasticmao.ycy.intellij.plugin.remind;
+package cn.ivhik.wyb.intellij.plugin.remind;
 
 /**
  * 定时提醒组件

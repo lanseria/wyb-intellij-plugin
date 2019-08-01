@@ -1,4 +1,4 @@
-package cn.fantasticmao.ycy.intellij.plugin.config;
+package cn.ivhik.wyb.intellij.plugin.config;
 
 import com.intellij.openapi.components.State;
 import com.intellij.openapi.components.Storage;

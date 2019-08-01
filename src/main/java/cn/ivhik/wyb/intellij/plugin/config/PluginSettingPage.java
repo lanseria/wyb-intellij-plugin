@@ -1,7 +1,7 @@
-package cn.fantasticmao.ycy.intellij.plugin.config;
+package cn.ivhik.wyb.intellij.plugin.config;
 
-import cn.fantasticmao.ycy.intellij.plugin.GlobalConfig;
-import cn.fantasticmao.ycy.intellij.plugin.remind.RemindTask;
+import cn.ivhik.wyb.intellij.plugin.GlobalConfig;
+import cn.ivhik.wyb.intellij.plugin.remind.RemindTask;
 import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.options.ConfigurationException;
 import com.intellij.openapi.options.SearchableConfigurable;

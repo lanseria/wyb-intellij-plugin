@@ -1,25 +1,28 @@
 <idea-plugin url="https://www.jetbrains.com/idea">
-    <id>cn.fantasticmao.ycy.intellij.plugin</id>
-    <name>Programmer Motivator: Chaoyue Yang(超越鼓励师)</name>
+    <id>cn.ivhik.wyb.intellij.plugin</id>
+    <name>Programmer Motivator: YiBo Wang(鼓励师)</name>
     <version>1.4</version>
 
-    <vendor email="fantasticmao@gmail.com" url="https://github.com/FantasticMao/ycy-intellij-plugin">FantasticMao</vendor>
+    <vendor email="fantasticmao@gmail.com" url="https://github.com/Lanseria/wyb-intellij-plugin">Lanseria</vendor>
 
     <description><![CDATA[
-        Coding won't be lonely anymore with Chaoyue Yang's accompany!<br>
-        Chaoyue Yang will remind you to have a rest when you work constantly for an hour at IntelliJ IDEA~<br>
+        Coding won't be lonely anymore with YiBo Wang's accompany!<br>
+        YiBo Wang will remind you to have a rest when you work constantly for an hour at IntelliJ IDEA~<br>
         <br>
-        写代码不再孤单，有杨超越与你同在！<br>
-        在 IntelliJ IDEA 中连续编写代码一小时，会有杨超越提醒你该休息啦～<br>
+        写代码不再孤单，有王一博与你同在！<br>
+        在 IntelliJ IDEA 中连续编写代码一小时，会有王一博提醒你该休息啦～<br>
         <br>
-        GitHub: <a href="https://github.com/FantasticMao/ycy-intellij-plugin">https://github.com/FantasticMao/ycy-intellij-plugin</a>
+        GitHub: <a href="https://github.com/Lanseria/wyb-intellij-plugin">https://github.com/Lanseria/wyb-intellij-plugin</a>
     ]]></description>
 
     <change-notes><![CDATA[
-        <ul>
-            <li>Bugfix <a href="https://github.com/FantasticMao/ycy-intellij-plugin/pull/20">#20</a></li>
-        </ul>
-    ]]></change-notes>
+      <ul>
+        <li>v1.3 fix some bug</li>
+        <li>v1.2 add info</li>
+        <li>v1.1 fix bug</li>
+      </ul>
+    ]]>
+    </change-notes>
 
     <depends>com.intellij.modules.lang</depends>
 
@@ -27,16 +30,16 @@
 
     <application-components>
         <component>
-            <interface-class>cn.fantasticmao.ycy.intellij.plugin.remind.RemindComponent</interface-class>
+            <interface-class>cn.ivhik.wyb.intellij.plugin.remind.RemindComponent</interface-class>
 
-            <implementation-class>cn.fantasticmao.ycy.intellij.plugin.remind.RemindComponentImpl</implementation-class>
+            <implementation-class>cn.ivhik.wyb.intellij.plugin.remind.RemindComponentImpl</implementation-class>
         </component>
     </application-components>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationConfigurable groupId="other" instance="cn.fantasticmao.ycy.intellij.plugin.config.PluginSettingPage"/>
+        <applicationConfigurable groupId="other" instance="cn.ivhik.wyb.intellij.plugin.config.PluginSettingPage"/>
 
-        <applicationService serviceInterface="cn.fantasticmao.ycy.intellij.plugin.config.ConfigService"
-                            serviceImplementation="cn.fantasticmao.ycy.intellij.plugin.config.ConfigServiceImpl"/>
+        <applicationService serviceInterface="cn.ivhik.wyb.intellij.plugin.config.ConfigService"
+                            serviceImplementation="cn.ivhik.wyb.intellij.plugin.config.ConfigServiceImpl"/>
     </extensions>
 </idea-plugin>

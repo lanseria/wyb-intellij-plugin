@@ -1,4 +1,4 @@
-package cn.fantasticmao.ycy.intellij.plugin.remind;
+package cn.ivhik.wyb.intellij.plugin.remind;
 
 import java.net.URL;
 import java.util.List;

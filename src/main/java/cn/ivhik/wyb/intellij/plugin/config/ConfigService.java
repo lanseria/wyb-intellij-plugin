@@ -1,4 +1,4 @@
-package cn.fantasticmao.ycy.intellij.plugin.config;
+package cn.ivhik.wyb.intellij.plugin.config;
 
 import com.intellij.openapi.components.PersistentStateComponent;
 import com.intellij.openapi.components.ServiceManager;
@@ -28,6 +28,7 @@ public interface ConfigService extends PersistentStateComponent<ConfigState> {
      *
      * @return {@link ConfigState}
      */
+    @Override
     @NotNull
     ConfigState getState();
 

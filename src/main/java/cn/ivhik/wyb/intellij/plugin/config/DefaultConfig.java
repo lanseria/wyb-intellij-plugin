@@ -1,6 +1,6 @@
-package cn.fantasticmao.ycy.intellij.plugin.config;
+package cn.ivhik.wyb.intellij.plugin.config;
 
-import cn.fantasticmao.ycy.intellij.plugin.remind.ImageManager;
+import cn.ivhik.wyb.intellij.plugin.remind.ImageManager;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -32,12 +32,12 @@ public interface DefaultConfig {
     /**
      * 默认通知文案的标题
      */
-    String NOTIFY_TITLE = "超越妹妹";
+    String NOTIFY_TITLE = "一博";
 
     /**
      * 默认通知文案的内容
      */
-    String NOTIFY_CONTENT = "小哥哥，代码写好久了，该休息一下啦～";
+    String NOTIFY_CONTENT = "小姐姐，代码写好久了，该休息一下啦～";
 
     /**
      * 默认通知文案的按钮

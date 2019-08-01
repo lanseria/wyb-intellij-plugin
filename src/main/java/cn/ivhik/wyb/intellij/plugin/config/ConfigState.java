@@ -1,6 +1,6 @@
-package cn.fantasticmao.ycy.intellij.plugin.config;
+package cn.ivhik.wyb.intellij.plugin.config;
 
-import cn.fantasticmao.ycy.intellij.plugin.GlobalConfig;
+import cn.ivhik.wyb.intellij.plugin.GlobalConfig;
 import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.util.xmlb.annotations.OptionTag;
 
@@ -35,7 +35,7 @@ public class ConfigState {
     /**
      * 提醒方式枚举类
      *
-     * @see cn.fantasticmao.ycy.intellij.plugin.remind.RemindStrategy
+     * @see cn.ivhik.wyb.intellij.plugin.remind.RemindStrategy
      */
     public enum RemindTypeEnum {
         /**

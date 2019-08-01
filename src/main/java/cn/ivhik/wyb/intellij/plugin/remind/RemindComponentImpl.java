@@ -1,4 +1,4 @@
-package cn.fantasticmao.ycy.intellij.plugin.remind;
+package cn.ivhik.wyb.intellij.plugin.remind;
 
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.diagnostic.Logger;
@@ -15,7 +15,7 @@ public class RemindComponentImpl implements RemindComponent {
 
     public RemindComponentImpl() {
         ApplicationManager.getApplication().invokeLater(() -> {
-            LOG.info("=== Programmer Motivator: Chaoyue Yang(超越鼓励师) ===");
+            LOG.info("=== Programmer Motivator: YiBo Wang(王一博鼓励师) ===");
 
             RemindTask.init();
             LOG.info("start scheduled remind task");

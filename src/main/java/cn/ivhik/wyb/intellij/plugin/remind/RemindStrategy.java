@@ -1,8 +1,8 @@
-package cn.fantasticmao.ycy.intellij.plugin.remind;
+package cn.ivhik.wyb.intellij.plugin.remind;
 
-import cn.fantasticmao.ycy.intellij.plugin.GlobalConfig;
-import cn.fantasticmao.ycy.intellij.plugin.config.ConfigService;
-import cn.fantasticmao.ycy.intellij.plugin.config.ConfigState;
+import cn.ivhik.wyb.intellij.plugin.GlobalConfig;
+import cn.ivhik.wyb.intellij.plugin.config.ConfigService;
+import cn.ivhik.wyb.intellij.plugin.config.ConfigState;
 import com.intellij.ide.DataManager;
 import com.intellij.notification.*;
 import com.intellij.openapi.actionSystem.DataContext;

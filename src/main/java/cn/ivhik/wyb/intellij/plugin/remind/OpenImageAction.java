@@ -1,4 +1,4 @@
-package cn.fantasticmao.ycy.intellij.plugin.remind;
+package cn.ivhik.wyb.intellij.plugin.remind;
 
 import com.intellij.ide.DataManager;
 import com.intellij.notification.Notification;
@@ -39,7 +39,7 @@ class OpenImageAction extends AnAction {
     public void actionPerformed(@NotNull AnActionEvent event) {
         /*
          * at version 1.2 fix a bug: 2017.1 版本无法打开图片问题
-         * see https://github.com/FantasticMao/ycy-intellij-plugin/issues/9
+         * see https://github.com/Lanseria/wyb-intellij-plugin/issues/9
          */
         DataManager.getInstance().getDataContextFromFocus()
                 .doWhenDone((Consumer<DataContext>) (dataContext -> new OpenImageConsumer().accept(dataContext)))

@@ -1,4 +1,4 @@
-package cn.fantasticmao.ycy.intellij.plugin.config;
+package cn.ivhik.wyb.intellij.plugin.config;
 
 import com.intellij.icons.AllIcons;
 import com.intellij.openapi.actionSystem.AnActionEvent;
@@ -62,7 +62,7 @@ public class PluginSettingForm {
     /**
      * 获取提醒方式
      *
-     * @return {@code cn.fantasticmao.ycy.intellij.plugin.config.ConfigState.RemindTypeEnum}
+     * @return {@code cn.ivhik.wyb.intellij.plugin.config.ConfigState.RemindTypeEnum}
      */
     public int getRemindTypeOption() {
         return this.remindTypeOptions.getSelectedIndex();

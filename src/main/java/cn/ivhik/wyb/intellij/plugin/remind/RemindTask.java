@@ -1,7 +1,7 @@
-package cn.fantasticmao.ycy.intellij.plugin.remind;
+package cn.ivhik.wyb.intellij.plugin.remind;
 
-import cn.fantasticmao.ycy.intellij.plugin.config.ConfigService;
-import cn.fantasticmao.ycy.intellij.plugin.config.ConfigState;
+import cn.ivhik.wyb.intellij.plugin.config.ConfigService;
+import cn.ivhik.wyb.intellij.plugin.config.ConfigState;
 import com.intellij.concurrency.JobScheduler;
 import com.intellij.openapi.application.ApplicationManager;
 

@@ -1,6 +1,6 @@
-package cn.fantasticmao.ycy.intellij.plugin.remind;
+package cn.ivhik.wyb.intellij.plugin.remind;
 
-import cn.fantasticmao.ycy.intellij.plugin.GlobalConfig;
+import cn.ivhik.wyb.intellij.plugin.GlobalConfig;
 import com.intellij.ide.plugins.IdeaPluginDescriptor;
 import com.intellij.ide.plugins.PluginManager;
 import com.intellij.openapi.diagnostic.Logger;
@@ -59,7 +59,7 @@ public class ImageManagerImpl implements ImageManager {
     /**
      * 从插件 jar 中获取默认图片列表
      *
-     * <p>默认图片地址是 "jar:file://{@code ${pluginPath}}/ycy-intellij-plugin.jar!/images/1.jpg"</p>
+     * <p>默认图片地址是 "jar:file://{@code ${pluginPath}}/wyb-intellij-plugin.jar!/images/1.jpg"</p>
      */
     private List<URL> init() {
         PluginId pluginId = PluginId.getId(GlobalConfig.PLUGIN_ID);
