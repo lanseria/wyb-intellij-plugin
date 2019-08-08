@@ -1,11 +1,13 @@
-# 超越鼓励师
+# 王一博鼓励师
 
-> [Visual Studio Code 版本](https://github.com/formulahendry/vscode-ycy)
+> [Fork 杨超越鼓励师 ycy-intellij-plugin 版本](https://github.com/FantasticMao/ycy-intellij-plugin)
 
-在 IntelliJ IDEA 中连续编写代码一小时，会有杨超越提醒你该休息啦～
+> [杨超越鼓励师 Visual Studio Code 版本](https://github.com/formulahendry/vscode-ycy)
+
+在 IntelliJ IDEA 中连续编写代码一小时，会有王一博提醒你该休息啦～
 
 ## 在线演示
-![usage](doc/usage.gif)
+![usage](src/main/resources/images/1.jpg)
 
 ![config](doc/config.png)
 
