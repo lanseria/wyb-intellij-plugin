@@ -1,7 +1,7 @@
 <idea-plugin url="https://www.jetbrains.com/idea">
     <id>cn.ivhik.wyb.intellij.plugin</id>
     <name>Programmer Motivator: YiBo Wang(鼓励师)</name>
-    <version>1.4</version>
+    <version>1.5</version>
 
     <vendor email="fantasticmao@gmail.com" url="https://github.com/Lanseria/wyb-intellij-plugin">Lanseria</vendor>
 
