@@ -1,6 +1,5 @@
 package cn.ivhik.wyb.intellij.plugin.config;
 
-import com.intellij.icons.AllIcons;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.ui.ComboBox;
 import com.intellij.ui.AnActionButton;
@@ -45,7 +44,7 @@ public class PluginSettingForm {
         List<String> remindImages = configState.getRemindImages();
         this.pluginSettingTable = new PluginSettingTable(remindImages);
         this.imageUrlList = ToolbarDecorator.createDecorator(pluginSettingTable)
-                .addExtraAction(new AnActionButton("Reset", AllIcons.Actions.Reset_to_default) {
+                .addExtraAction(new AnActionButton("Reset") {
                     @Override
                     public void actionPerformed(AnActionEvent e) {
                         pluginSettingTable.resetTableList();
